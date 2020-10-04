@@ -23,8 +23,32 @@
           "!type": "External",
           "file": [
             "forms",
-            "Form1",
-            "Form1.json"
+            "while",
+            "while.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "for",
+            "for.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "calc",
+            "calc.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "strings",
+            "strings.json"
           ]
         }
       ],
@@ -47,11 +71,11 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "Form1",
+      "firstform": "while",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
-      "id": "FixIt7Level3KaitlynAnderson",
+      "id": "Fixit7Level3KaitlynAnderson",
       "iosDevP12": "certificates/ios_development.p12",
       "iosDevP12Password": "mypassword",
       "iosDevelopment": "certificates/development.mobileprovision",
@@ -84,7 +108,7 @@
       "style": "",
       "styleheaders": null,
       "theme": "a",
-      "title": "FixIt7Level3KaitlynAnderson",
+      "title": "Fixit7Level3KaitlynAnderson",
       "useStrict": "",
       "version": "1.0.0",
       "viewportFit": "cover",

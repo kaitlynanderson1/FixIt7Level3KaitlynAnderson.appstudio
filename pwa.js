@@ -1,5 +1,5 @@
 // version and contentToCache are supplied by IDEController.py during deploy
-const cacheName = 'FixIt7Level3KaitlynAnderson-2020-10-04 14:52:36.930042'; // unique value, generated each deploy
+const cacheName = 'Fixit7Level3KaitlynAnderson-2020-10-04 13:49:01.724252'; // unique value, generated each deploy
 const contentToCache = [
   'index.html',
   'code.js',
@@ -27,7 +27,7 @@ self.addEventListener('activate', ((e) => {
       if (trace) console.log('keylist', keyList);
       return Promise.all(keyList.map((key) => {
         if (trace) console.log('  Key:', key);
-        if (cacheName.indexOf(key) === -1  && key.substr(0, 'FixIt7Level3KaitlynAnderson'.length) === 'FixIt7Level3KaitlynAnderson') {
+        if (cacheName.indexOf(key) === -1  && key.substr(0, 'Fixit7Level3KaitlynAnderson'.length) === 'Fixit7Level3KaitlynAnderson') {
           if (trace) console.log('  Delete:', key);
           return caches.delete(key);
         }
